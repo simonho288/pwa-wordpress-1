@@ -1,0 +1,16 @@
+ul(class="nav nav-pills nav-fill")
+  li.nav-item
+    -if (current_active == 'home')
+      a(class="nav-link active" href="/home.html") Home
+    -else
+      a(class="nav-link" href="/home.html") Home
+  li.nav-item
+    -if (current_active == 'blogs')
+      a(class="nav-link active" href="/blogs.html") Blogs
+    -else
+      a(class="nav-link" href="/blogs.html") Blogs
+  li.nav-item
+    -if (current_active == 'pages')
+      a(class="nav-link active" href="/pages.html") Pages
+    -else
+      a(class="nav-link" href="/pages.html") Pages
