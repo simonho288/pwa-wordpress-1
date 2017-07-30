@@ -1,7 +1,7 @@
 {
-  "name": "pwawp-blog",
+  "name": "pwa-wordpress-1",
   "version": "1.0.0",
-  "description": "Progressive Web App Wordpress theme demo",
+  "description": "Progressive Web App Wordpress theme part 1",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && webpack -d --config webpack.config.dev.js && npm run copy-assets",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/simonho288/pwawp-blog.git"
+    "url": "git+https://github.com/simonho288/pwa-wordpress-1.git"
   },
   "keywords": [],
   "author": "Simon Ho",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/simonho288/pwawp-blog/issues"
+    "url": "https://github.com/simonho288/pwa-wordpress-1/issues"
   },
-  "homepage": "https://github.com/simonho288/pwawp-blog#readme",
+  "homepage": "https://github.com/simonho288/pwa-wordpress-1#readme",
   "devDependencies": {
     "amdefine": "^1.0.1",
     "babel": "^6.23.0",
