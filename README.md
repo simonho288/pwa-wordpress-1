@@ -14,7 +14,7 @@ cd dist
 
 Then run local webserver from here. Such as http-server:
 ```bash
-npm i -g http-server (install local web server if you didn\'t)
+npm i -g http-server (install local web server if you didn't)
 http-server
 ```
 
